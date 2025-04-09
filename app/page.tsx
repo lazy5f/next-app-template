@@ -2,6 +2,9 @@ import { Link } from "@heroui/link";
 import { Snippet } from "@heroui/snippet";
 import { Code } from "@heroui/code";
 import { button as buttonStyles } from "@heroui/theme";
+import { Button } from "@heroui/button";
+
+import MyTable from "./my_table";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
@@ -34,6 +37,9 @@ export default function Home() {
         >
           Documentation
         </Link>
+        <Button isLoading color="primary">
+          Hell
+        </Button>
         <Link
           isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
@@ -43,6 +49,8 @@ export default function Home() {
           GitHub
         </Link>
       </div>
+
+      <MyTable />
 
       <div className="mt-8">
         <Snippet hideCopyButton hideSymbol variant="bordered">
