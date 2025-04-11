@@ -1,53 +1,45 @@
-# Next.js & HeroUI Template
+# HeroUI@beta + TailwindCSS v4 + Nextra v4
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+*(원래 있던 README.md 내용 제거하고 이것 작성했습니다.)*
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+## Run
 
-## Technologies Used
+**XXX** 아직 작업중입니다.
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- Branch: `feat/eng-2269-tailwindcss-v4`
 
-## How to Use
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+```sh
+git clone -b feat/eng-2269-tailwindcss-v4 https://github.com/lazy5f/next-app-template.git
+cd next-app-template
+pnpm i
+pnpm build
+pnpm dev
 ```
 
-### Install dependencies
+**다음 확인:**
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+- <http://localhost:3000/>
+- <http://localhost:3000/docs>
 
-```bash
-npm install
-```
+## 작업 내용
 
-### Run the development server
+1. 다음 fork
+   - <https://github.com/heroui-inc/next-app-template>
+2. 다음을 따라 Nextra 적용
+   - <https://nextra.site/docs/docs-theme/start>
+   - `content` Directory 방식 사용
 
-```bash
-npm run dev
-```
+**TODO:**
 
-### Setup pnpm (optional)
+- Code 정리
+- `<Providers>` 적용
+- <https://nextra.site/docs/advanced/tailwind-css>
+- Typescript
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+## NOTE
 
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+- [heroui#4644](https://github.com/heroui-inc/heroui/issues/4644) [Feature Request]Tailwind v4 support.
+- [Nextra Starter Template](https://nextjs-nextra.netlify.app/en)
+  - Nextra v4 + TailwindCSS v4 + Shadcn UI
+- [astro](https://astro.build/)
+  - The web framework for content-driven websites
