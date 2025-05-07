@@ -4,22 +4,13 @@
 
 ## Run
 
-**XXX** 아직 작업중입니다.
-
-- Branch: `feat/eng-2269-tailwindcss-v4`
-
 ```sh
-git clone -b feat/eng-2269-tailwindcss-v4 https://github.com/lazy5f/next-app-template.git
+git clone -b feature/heroui-tailwindcss_v4-nextra_v4 https://github.com/lazy5f/next-app-template.git
 cd next-app-template
 pnpm i
 pnpm build
 pnpm dev
 ```
-
-**다음 확인:**
-
-- <http://localhost:3000/>
-- <http://localhost:3000/docs>
 
 ## 작업 내용
 
